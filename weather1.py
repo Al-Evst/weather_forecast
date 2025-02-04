@@ -1,7 +1,7 @@
 import requests
 
 
-def get_weather():
+def main():
 
     parameters = {"MmnqT":"",
               "lang":"ru", }
@@ -14,4 +14,4 @@ def get_weather():
         print(response.text)  
             
 if __name__ == '__main__':
-    get_weather()
+    main()
